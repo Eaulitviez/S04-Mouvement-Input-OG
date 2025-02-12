@@ -6,6 +6,7 @@ public class MangerPoissons : MonoBehaviour
 {
     private void OnTriggerEnter(Collider other)
     {
+       
         if (other.gameObject.CompareTag("Poisson"))
         {
             Debug.Log("touche");
